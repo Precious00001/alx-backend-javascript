@@ -13,9 +13,11 @@ app.get('/', (req, res) => {
   res.send('Hello Holberton School!');
 });
 
-// Start the server and make it listen on the specified port
+// Start the server and make it listen
+// on the specified port
 app.listen(port);
 
-// Export the app to make it available for testing or other modules
+// Export the app to make it available for
+// testing or other modules
 module.exports = app;
 
